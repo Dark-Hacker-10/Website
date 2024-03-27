@@ -37,11 +37,30 @@ div.Ask_Her{
     color: black;
 
 }
+@media (max-width: 600px){
+    body{
+        background-image: url("download.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-y: scroll;
+        img {
+            max-width: 100%;
+          }
 
+    
+    
+    }
+
+}
 
 body{
     background-image: url("download.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-size: 50cm;
+    overflow-y: scroll;
+    img {
+        max-width: 100%;
+      }
+
 }
