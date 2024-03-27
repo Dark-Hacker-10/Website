@@ -1,0 +1,47 @@
+div.Ask_Her{
+    border-width: 5cm;
+    border-color: black;
+    -ms-flex-align: center;
+    color: black;
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3%;
+    text-align: center;
+}
+.button {
+    background-color:beige;
+    border: none;
+    width: 5%;
+    color: black;
+    padding: 10px 24px;
+    margin: 1%;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    align-items: center;
+    justify-content: center;
+  }
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color:aqua;
+    color: black;
+
+}
+
+
+body{
+    background-image: url("download.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
